@@ -1,4 +1,2 @@
-sails_tseting
-=============
-
-Just another sails.js testing app
+# testProject2
+### a Sails application
