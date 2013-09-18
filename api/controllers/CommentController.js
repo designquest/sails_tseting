@@ -13,10 +13,12 @@ module.exports = {
       if (err) {
         res.json(err);
       } else {
-        res.view('comment/index', { objs: objs });
-        //res.json({objs:objs});
+        res.view('comment/index', { 
+        	objs: objs, 
+        	_layoutFile: '/layout/dq' 
+        });
       }
-    });
+    }); 	
     
   },
 
